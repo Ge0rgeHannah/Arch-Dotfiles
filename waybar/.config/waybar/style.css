@@ -1,0 +1,59 @@
+/* Define Everforest Colours */
+
+
+/* ------------------------- */
+
+* {
+    font-family: 'SpaceMono Nerd Font';
+    font-size: 14px;
+    border: none;
+    color: #A7c080;
+}
+
+window#waybar {
+    background: rgba(45,59,53,0.5);
+    border-radius: 20px;
+}
+
+#workspaces {
+    margin: 0px 0px 0px 5px;
+    padding: 5px;
+}
+
+#workspaces button {
+    transition: none;
+    border-radius: 50%;  /* Make it circular */
+}
+
+#workspaces button:hover{
+    box-shadow: inherit;
+    text-shadow: inherit;
+    background: #425047;
+}
+
+#workspaces button.active{
+    background: #A7C080;
+}
+
+#workspaces button.active label{
+    color: rgba(43,59,53,1);
+}
+
+.modules-right {
+    margin: 0px 5px 0px 0px;
+    padding: 5px 0px 5px 0px;
+}
+
+.popup {
+    background: rgba(45,53,59,1);
+}
+
+.right{
+   margin-left: 10px;
+}
+
+#tray {
+  border-radius: 15px;
+  background: #3d484d;
+  padding: 0px 5px 0px 5px;
+}
