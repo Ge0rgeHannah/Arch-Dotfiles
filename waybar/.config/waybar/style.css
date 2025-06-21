@@ -12,7 +12,7 @@
 
 window#waybar {
     background: rgba(45,59,53,0.5);
-    border-radius: 20px;
+    border-radius: 25px;
 }
 
 #workspaces {
@@ -44,16 +44,44 @@ window#waybar {
     padding: 5px 0px 5px 0px;
 }
 
-.popup {
-    background: rgba(45,53,59,1);
+.modules-right .module {
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-.right{
-   margin-left: 10px;
+.modules-right .module:hover {
+   background: #425047;
+}                              
+
+.popup {
+    background: rgba(45,53,59,1);
+    border-radius: 15px;
 }
 
 #tray {
   border-radius: 15px;
   background: #3d484d;
-  padding: 0px 5px 0px 5px;
+}
+
+#tray:hover {
+  background: #2d353b;
+}
+
+tooltip {
+  background: rgba(45,59,53,0.9);
+}
+
+#custom-power {
+  font-family: 'Symbols Nerd Font';
+  background: #425047;
+  border-radius: 50%;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+#custom-power:hover {
+  background: #343F44;
 }

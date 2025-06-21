@@ -1,0 +1,55 @@
+* {
+	background-image: none;
+	box-shadow: none;
+	font-family: "SpaceMono Nerd Font"
+}
+
+window {
+	background-color: rgba(52, 63, 68, 0.4);
+}
+
+button {
+        border-radius: 50%;
+        color: #a7c080;
+	background-color: #425047;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25%;
+}
+
+button:focus, button:active, button:hover {
+	background-color: #a7c080;
+	color: #425047;
+}
+
+#lock {
+    background-image: image(url("lock-light.png"));
+}
+
+#logout {
+    background-image: image(url("log-out-light.png"));
+}
+
+#shutdown {
+    background-image: image(url("power-off-light.png"));
+}
+
+#reboot {
+    background-image: image(url("reboot-light.png"));
+}
+
+#lock:focus, #lock:active, #lock:hover {
+    background-image: image(url("lock-dark.png"));
+}
+
+#logout:focus, #logout:active, #logout:hover {
+    background-image: image(url("log-out-dark.png"));
+}
+
+#shutdown:focus, #shutdown:active, #shutdown:hover {
+    background-image: image(url("power-off-dark.png"));
+}
+
+#reboot:focus, #reboot:active, #reboot:hover {
+    background-image: image(url("reboot-dark.png"));
+}

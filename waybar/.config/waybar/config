@@ -70,7 +70,7 @@
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": " {format_source}",
-        "format-source": "{volume}% ",
+        "format-source": "  {volume}% ",
         "format-source-muted": "",
         "format-icons": {
             "headphone": "",
@@ -85,16 +85,17 @@
 	"class": "right"
     },
     "custom/power": {
-        "format" : "⏻ ",
+        "format" : " ⏻ ",
+	"on-click": "wlogout -b 4 -c 100, -T 600 -B 600 -L 650 -R 650",
 		"tooltip": false,
-		"menu": "on-click",
-		"menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
-		"menu-actions": {
-			"shutdown": "shutdown",
-			"reboot": "reboot",
-			"suspend": "systemctl suspend",
-			"hibernate": "systemctl hibernate"
-		},
+		// "menu": "on-click",
+		// "menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
+		// "menu-actions": {
+		// 	"shutdown": "shutdown",
+		// 	"reboot": "reboot",
+		// 	"suspend": "systemctl suspend",
+		// 	"hibernate": "systemctl hibernate"
+		// },
 	"class": "right"
     }
 }
