@@ -5,7 +5,7 @@
 @define-color noti-bg-darker rgb(35, 42, 46);
 @define-color noti-bg-hover rgb(45, 53, 59);
 @define-color noti-bg-hover-opaque rgb(45, 53, 59);
-@define-color noti-bg-focus rgba(52, 63, 68, 0.6);
+@define-color noti-bg-focus rgba(52, 63, 68, 0.0);
 @define-color noti-close-bg rgba(157, 169, 160, 0.1);
 @define-color noti-close-bg-hover rgba(157, 169, 160, 0.15);
 @define-color text-color rgb(166, 192, 128);
@@ -503,4 +503,11 @@
 
 .widget-inhibitors > button:hover {
   background: @noti-bg-hover;
+}
+
+.notification-window {
+  background: transparent;
+  box-shadow: none;
+  margin: 0px;
+  padding: 0px;
 }
