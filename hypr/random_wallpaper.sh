@@ -12,4 +12,6 @@ if (( ${#files} == 0 )); then
 fi
 random_file="${files[RANDOM % ${#files[@]} + 1]}"
 
+cp $random_file ~/Pictures/current_wp.png
+
 hyprctl hyprpaper wallpaper "${MONITOR}, ${random_file}"
